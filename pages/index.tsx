@@ -29,7 +29,8 @@ export default function Home() {
           <hr />
           <div className="section about-section">
             <h2 className="">About</h2>
-            <p>Peloton Espresso is the best cafe in Oxford !</p>
+            <p>Peloton Espresso is the best cafe in Oxford ! Opened in 2017... Bike/Dog Friendly... </p>
+            <p>Please check our Instagram (below) for recent news and updates.</p>
           </div>
 
           <div className="section time-section">
@@ -39,7 +40,7 @@ export default function Home() {
           </div>
           <div className="section coffee-section">
             <h2 className="">Our Coffee</h2>
-            <p>Our coffee is sourced from <a href='https://routescoffee.co.uk/'>Routes</a>, a local roastery.</p>
+            <p>Our coffee is sourced from <a className='text-link' href='https://routescoffee.co.uk/'>Routes</a>, a local roastery.</p>
             <p>We serve a range of espresso-based drinks... two filters on every day... tea + decaf options</p>
           </div>
           <div className="section cake-section">
@@ -49,13 +50,21 @@ export default function Home() {
           <div className="section location-section">
             <h2 className="">Find Us</h2>
             <p>Peloton Espresso, 76 Cowley Road, Oxford, OX4 1JB</p>
-            <iframe className='my-4' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.136893415165!2d-1.242926482556114!3d51.74882029999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c14dcf888d3f%3A0xc8e148a68f832588!2sPeloton%20Espresso!5e0!3m2!1sen!2suk!4v1678747848259!5m2!1sen!2suk" width="600" height="350" style={{"border":0}} allowFullScreen={false} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-            <p>You can find us on Instagram, Facebook and Twitter @pelotonespresso, or send an email to <a href="mailto:pelotonespresso@gmail.com">pelotonespresso@gmail.com</a></p>
+            {/* <div className=''> */}
+            <iframe className='my-4 w-full h-[200px] md:h-[350px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.136893415165!2d-1.242926482556114!3d51.74882029999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c14dcf888d3f%3A0xc8e148a68f832588!2sPeloton%20Espresso!5e0!3m2!1sen!2suk!4v1678747848259!5m2!1sen!2suk" style={{"border":0}} allowFullScreen={false} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            {/* </div> */}
+          </div>
+          <div>
+            <h2>Contact</h2>
+            <p>Any questions? We'd love to hear from you !</p>
+            <p>Email: <a className='text-link' href="mailto:pelotonespresso@gmail.com">pelotonespresso@gmail.com</a></p>
+            <p>Telephone: 01865 248808</p>
+            <p>We are also on Instagram, Facebook and Twitter: @pelotonespresso</p>
             <div className="social-icons flex flex-row gap-6 mt-4 justify-center">
               <SocialIcon url='https://www.instagram.com/pelotonespresso/' bgColor="#ffffff"/>
               <SocialIcon url='https://www.facebook.com/pelotonespresso/' bgColor='#ffffff' />
               <SocialIcon url='https://twitter.com/pelotonespresso' bgColor='#ffffff' />
-          </div>
+            </div>
           </div>
         </div>
       </main>

@@ -121,12 +121,16 @@ h3 {
   font-size: large;
 }
 
-a {
+.text-link {
   text-decoration: underline;
 }
 
-a:hover {
+.text-link:hover {
   color: #ff0000;
   background-color: white;
   text-decoration: none;
 }
+
+/* .social-icon:hover {
+  background-color: #ff0000
+} */
