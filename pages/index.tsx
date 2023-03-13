@@ -56,7 +56,7 @@ export default function Home() {
           </div>
           <div>
             <h2>Contact</h2>
-            <p>Any questions? We'd love to hear from you !</p>
+            <p>Any questions? We would love to hear from you !</p>
             <p>Email: <a className='text-link' href="mailto:pelotonespresso@gmail.com">pelotonespresso@gmail.com</a></p>
             <p>Telephone: 01865 248808</p>
             <p>We are also on Instagram, Facebook and Twitter: @pelotonespresso</p>
