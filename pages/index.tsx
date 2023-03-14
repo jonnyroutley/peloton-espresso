@@ -24,13 +24,16 @@ export default function Home() {
         <div className="header text-center mb-6 md:mb-8">
           <h1 className="">Peloton Espresso</h1>
           <h3 className="">Coffee Shop and Clubhouse</h3>
+        <hr className="mt-4 md:mt-8"/>
         </div>
-        <div className="main-page flex flex-col justify-start max-w-xl w-full gap-4 md:gap-8 ">
-          <hr />
+        <div className="main-page flex flex-col bg-white text-black p-2 shadow-2xl md:p-4 rounded-xl justify-start max-w-2xl w-full gap-4 md:gap-6 ">
           <div className="section about-section">
             <h2 className="">About</h2>
             <p>Peloton Espresso is the best cafe in Oxford ! Opened in 2017... Bike/Dog Friendly... </p>
             <p>Please check our Instagram (below) for recent news and updates.</p>
+            <div className='flex justify-center'>
+              {/* <Image src='/173835011_142850454510082_3319809041383837785_n.jpg' width='300' height='300' alt='garden picture'/> */}
+            </div>
           </div>
 
           <div className="section time-section">
@@ -61,9 +64,9 @@ export default function Home() {
             <p>Telephone: 01865 248808</p>
             <p>We are also on Instagram, Facebook and Twitter: @pelotonespresso</p>
             <div className="social-icons flex flex-row gap-6 mt-4 justify-center">
-              <SocialIcon url='https://www.instagram.com/pelotonespresso/' bgColor="#ffffff"/>
-              <SocialIcon url='https://www.facebook.com/pelotonespresso/' bgColor='#ffffff' />
-              <SocialIcon url='https://twitter.com/pelotonespresso' bgColor='#ffffff' />
+              <SocialIcon url='https://www.instagram.com/pelotonespresso/' target="_blank" rel="noopener noreferrer" bgColor="#ffffff"/>
+              <SocialIcon url='https://www.facebook.com/pelotonespresso/' target="_blank" rel="noopener noreferrer" bgColor='#ffffff' />
+              <SocialIcon url='https://twitter.com/pelotonespresso' target="_blank" rel="noopener noreferrer" bgColor='#ffffff' />
             </div>
           </div>
         </div>
