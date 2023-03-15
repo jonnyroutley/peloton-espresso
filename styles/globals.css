@@ -116,6 +116,8 @@ h1 {
 }
 h2 {
   font-size: x-large;
+  color: #dd0000;
+  font-weight: bold;
 }
 h3 {
   font-size: large;
@@ -133,6 +135,7 @@ h3 {
 
 .section {
   margin-top: 0.5rem;
+  padding: 8px;
 }
 
 .gallery-image img {
