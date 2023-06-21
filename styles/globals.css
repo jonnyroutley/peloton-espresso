@@ -116,14 +116,15 @@ h1 {
 }
 h2 {
   font-size: x-large;
-  color: #dd0000;
-  font-weight: bold;
+  /* color: #dd0000; */
+  /* font-weight: bold; */
 }
 h3 {
   font-size: large;
 }
 
 .text-link {
+  color: #dd0000;
   text-decoration: underline;
 }
 
@@ -136,8 +137,15 @@ h3 {
 .section {
   margin-top: 0.5rem;
   padding: 8px;
+  /* min-height: 400px; */
 }
 
 .gallery-image img {
   border-radius: 2px;
+}
+
+main {
+  min-height: 100vh;
+  font-family: arvo;
+  background-color: rgb(252, 252, 252);
 }
