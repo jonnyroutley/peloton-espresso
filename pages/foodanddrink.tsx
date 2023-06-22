@@ -4,10 +4,11 @@ import "@fontsource/arvo"; // Defaults to weight 400.
 
 import Link from 'next/link';
 
+import { useWindowSize } from 'usehooks-ts'
 import { getDataFromSheets } from './api/sheets';
 import type { SheetItem } from './api/sheets';
 import type { GetStaticProps } from 'next';
-import { useWindowSize } from "@uidotdev/usehooks";
+// import { useWindowSize } from "@uidotdev/usehooks";
 
 function selectColumns(rows: any[][], nameCol: number, priceCol: number) {
   if (rows && rows.length > 0) {
